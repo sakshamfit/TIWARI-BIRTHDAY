@@ -1,0 +1,110 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#0b0a2a"/>
+      <stop offset=".5" stop-color="#211654"/>
+      <stop offset="1" stop-color="#713984"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="50%" cy="100%" r="68%">
+      <stop offset="0" stop-color="#ff8dc1" stop-opacity=".52"/>
+      <stop offset="1" stop-color="#ff8dc1" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="name" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#ffe9a2"/>
+      <stop offset=".5" stop-color="#ff8fc4"/>
+      <stop offset="1" stop-color="#ffc48c"/>
+    </linearGradient>
+    <linearGradient id="env" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#ffb8d6"/>
+      <stop offset="1" stop-color="#f676ad"/>
+    </linearGradient>
+    <filter id="softShadow" x="-30%" y="-30%" width="160%" height="180%">
+      <feGaussianBlur in="SourceAlpha" stdDeviation="9"/>
+      <feOffset dy="9"/>
+      <feComponentTransfer><feFuncA type="linear" slope=".34"/></feComponentTransfer>
+      <feMerge><feMergeNode/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="nameGlow" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur stdDeviation="8" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+  <rect width="1200" height="630" fill="url(#sky)"/>
+  <rect width="1200" height="630" fill="url(#glow)"/>
+
+  <!-- Starlit sky -->
+  <g fill="#fff" opacity=".78">
+    <circle cx="92" cy="144" r="2"/><circle cx="178" cy="230" r="1.6"/><circle cx="261" cy="112" r="1.7"/>
+    <circle cx="340" cy="251" r="1.4"/><circle cx="395" cy="89" r="2"/><circle cx="493" cy="123" r="1.4"/>
+    <circle cx="705" cy="139" r="1.6"/><circle cx="820" cy="232" r="1.5"/><circle cx="876" cy="114" r="1.8"/>
+    <circle cx="982" cy="207" r="1.4"/><circle cx="1100" cy="170" r="1.7"/><circle cx="1060" cy="283" r="1.3"/>
+    <circle cx="123" cy="342" r="1.4"/><circle cx="270" cy="401" r="1.7"/><circle cx="917" cy="365" r="1.3"/>
+    <circle cx="1088" cy="425" r="1.7"/><circle cx="199" cy="509" r="1.3"/><circle cx="1007" cy="535" r="1.5"/>
+  </g>
+  <g fill="#fff" opacity=".95">
+    <path d="M318 164v8m-4-4h8"/><path d="M860 288v8m-4-4h8"/><path d="M100 449v7m-3.5-3.5h7"/>
+    <path d="M1066 330v8m-4-4h8"/><path d="M233 320v7m-3.5-3.5h7"/>
+  </g>
+
+  <!-- Festive string lights -->
+  <path d="M0 16 Q150 102 300 42 T600 48 T900 40 T1200 12" fill="none" stroke="#fff" stroke-opacity=".34" stroke-width="2"/>
+  <g>
+    <circle cx="48" cy="46" r="7" fill="#ff72ae"/><circle cx="48" cy="46" r="15" fill="#ff72ae" opacity=".17"/>
+    <circle cx="161" cy="72" r="7" fill="#ffe166"/><circle cx="161" cy="72" r="15" fill="#ffe166" opacity=".17"/>
+    <circle cx="277" cy="61" r="7" fill="#76e8c6"/><circle cx="277" cy="61" r="15" fill="#76e8c6" opacity=".17"/>
+    <circle cx="396" cy="42" r="7" fill="#8fd0ff"/><circle cx="396" cy="42" r="15" fill="#8fd0ff" opacity=".17"/>
+    <circle cx="516" cy="43" r="7" fill="#bd9cff"/><circle cx="516" cy="43" r="15" fill="#bd9cff" opacity=".17"/>
+    <circle cx="633" cy="51" r="7" fill="#ff9e70"/><circle cx="633" cy="51" r="15" fill="#ff9e70" opacity=".17"/>
+    <circle cx="752" cy="46" r="7" fill="#ff72ae"/><circle cx="752" cy="46" r="15" fill="#ff72ae" opacity=".17"/>
+    <circle cx="868" cy="40" r="7" fill="#ffe166"/><circle cx="868" cy="40" r="15" fill="#ffe166" opacity=".17"/>
+    <circle cx="985" cy="34" r="7" fill="#76e8c6"/><circle cx="985" cy="34" r="15" fill="#76e8c6" opacity=".17"/>
+    <circle cx="1104" cy="24" r="7" fill="#8fd0ff"/><circle cx="1104" cy="24" r="15" fill="#8fd0ff" opacity=".17"/>
+  </g>
+
+  <!-- Crescent moon -->
+  <path d="M1060 104a32 32 0 1 0 39-42 27 27 0 1 1-39 42Z" fill="#fff0bd" filter="url(#nameGlow)"/>
+
+  <!-- Chapter indicator -->
+  <g transform="translate(600 29)" fill="none" stroke="#fff" stroke-width="2" opacity=".74">
+    <path d="M0 13s-9-6-11-11c-1-4 4-6 7-2l4 4 4-4c3-4 8-2 7 2-2 5-11 11-11 11z" fill="#ff4f9a" stroke="#ff4f9a"/>
+    <path d="M28 13s-9-6-11-11c-1-4 4-6 7-2l4 4 4-4c3-4 8-2 7 2-2 5-11 11-11 11z"/>
+    <path d="M56 13s-9-6-11-11c-1-4 4-6 7-2l4 4 4-4c3-4 8-2 7 2-2 5-11 11-11 11z"/>
+    <path d="M84 13s-9-6-11-11c-1-4 4-6 7-2l4 4 4-4c3-4 8-2 7 2-2 5-11 11-11 11z"/>
+  </g>
+
+  <text x="600" y="132" text-anchor="middle" fill="#fff" font-family="DejaVu Sans, Arial, sans-serif" font-size="19" font-weight="700" letter-spacing="4" opacity=".88">A LITTLE BIRTHDAY MAGIC FOR</text>
+  <text x="600" y="251" text-anchor="middle" fill="url(#name)" stroke="#ffacd2" stroke-opacity=".18" stroke-width="2" font-family="DejaVu Serif, Georgia, serif" font-style="italic" font-size="116" filter="url(#nameGlow)">Kittu</text>
+
+  <!-- Pink envelope -->
+  <g filter="url(#softShadow)">
+    <rect x="440" y="306" width="320" height="211" rx="18" fill="#d94b8d"/>
+    <rect x="461" y="319" width="278" height="181" rx="12" fill="#fffaf4"/>
+    <path d="M440 324q0-18 18-18h284q18 0 18 18v175q0 18-18 18H458q-18 0-18-18z" fill="url(#env)"/>
+    <path d="M440 324l160 120 160-120v-1q0-17-18-17H458q-18 0-18 18z" fill="#ffc5df"/>
+    <path d="M440 499l111-90 49 38 49-38 111 90v1q0 18-18 18H458q-18 0-18-18z" fill="#ff9ec9"/>
+    <text x="467" y="485" fill="#b0185f" font-family="DejaVu Serif, Georgia, serif" font-size="25" font-style="italic">open me ♡</text>
+  </g>
+  <circle cx="600" cy="417" r="34" fill="#d42a78" opacity=".34"/>
+  <circle cx="600" cy="411" r="31" fill="#e52e83"/>
+  <path d="M600 426s-14-8-17-16c-2-7 5-11 10-5l7 6 7-6c5-6 12-2 10 5-3 8-17 16-17 16z" fill="#fff"/>
+
+  <!-- Tiny friendly teddy -->
+  <g transform="translate(758 433)" stroke="#8a5230" stroke-width="3" stroke-linejoin="round">
+    <circle cx="8" cy="8" r="13" fill="#d4935f"/><circle cx="53" cy="8" r="13" fill="#d4935f"/>
+    <circle cx="8" cy="8" r="6" fill="#f7dcba" stroke="none"/><circle cx="53" cy="8" r="6" fill="#f7dcba" stroke="none"/>
+    <ellipse cx="31" cy="57" rx="29" ry="37" fill="#d4935f"/>
+    <circle cx="31" cy="29" r="30" fill="#d4935f"/>
+    <ellipse cx="31" cy="39" rx="15" ry="11" fill="#f7dcba" stroke="none"/>
+    <circle cx="21" cy="28" r="3" fill="#2e1a10" stroke="none"/><circle cx="41" cy="28" r="3" fill="#2e1a10" stroke="none"/>
+    <ellipse cx="31" cy="35" rx="4" ry="3" fill="#2e1a10" stroke="none"/>
+    <path d="M27 42q4 4 8 0" fill="none" stroke="#2e1a10" stroke-width="2"/>
+    <path d="M19 54l12 8 12-8-3 12H22z" fill="#ff5fa2" stroke="#c4688a" stroke-width="2"/>
+  </g>
+
+  <text x="600" y="577" text-anchor="middle" fill="#fff" font-family="DejaVu Sans, Arial, sans-serif" font-size="18" font-weight="600" opacity=".84">Tap the heart seal to open it</text>
+  <g transform="translate(748 574)" fill="#35d7aa" stroke="#146d64" stroke-width="2" opacity=".95">
+    <ellipse cx="0" cy="-9" rx="6" ry="10"/><ellipse cx="0" cy="9" rx="6" ry="10"/>
+    <ellipse cx="-8" cy="0" rx="10" ry="6"/><ellipse cx="8" cy="0" rx="10" ry="6"/>
+    <circle r="3" fill="#f9dc78" stroke="none"/>
+  </g>
+</svg>
