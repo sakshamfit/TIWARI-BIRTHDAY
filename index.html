@@ -576,8 +576,8 @@ body[data-scene="letter"] #flock { z-index: 5; }
 .letter h2 { margin: 0 0 8px; font-family: var(--f-script); font-weight: 500; font-size: 52px; line-height: 1; color: var(--rose-deep); }
 .letter-body p, .letter .sign { opacity: 0; transform: translateY(10px); transition: opacity .9s ease, transform .9s var(--out); }
 .letter-body p.on, .letter .sign.on { opacity: 1; transform: none; }
-.letter-body p { margin: 0 0 14px; font-family: var(--f-hand); font-size: 23px; font-weight: 500; line-height: 1.28; }
-.letter .sign { margin: 4px 0 0; text-align: right; font-family: var(--f-script); font-weight: 500; font-size: 40px; line-height: 1; color: var(--rose-deep); }
+.letter-body p { margin: 0 0 18px; font-family: var(--f-ui); font-size: clamp(20px, 4.5vw, 26px); font-weight: 500; line-height: 1.6; letter-spacing: 0.02em; }
+.letter .sign { margin: 6px 0 0; text-align: right; font-family: var(--f-script); font-weight: 500; font-size: clamp(32px, 8vw, 44px); line-height: 1.2; color: var(--rose-deep); }
 .letter-foot { display: flex; justify-content: center; margin-top: 18px; }
 .card {
   position: relative; width: min(100%, 420px); padding: 24px 20px 22px; border-radius: 24px; background: var(--paper); color: var(--plum);
@@ -800,14 +800,14 @@ body[data-scene="letter"] #flock { z-index: 5; }
   const CONFIG = {
     name: 'Kittu',
     letter: [
-      'Happy birthday! I hope today feels as lovely as you make my days feel.',
-      'You turn ordinary moments into my favorite ones. Your laugh, your kindness, the way you care about the people around you. I notice all of it, and I’m so grateful you’re in my life.',
-      'This year, I hope you get everything you’ve been wishing for, plus a few happy surprises you never saw coming.',
-      'And in case the butterflies didn’t say it clearly enough: I love you. Today, tomorrow, and every day after. 💖',
+      'Happy birthday Kittu! Umeed hai aaj tumhara din itna hi pyara lage jitna tum mere din banati ho.',
+      'Tum ordinary moments ko mere favorite bana deti ho. Tumhari hansi, tumhari kindness, aur tum logon ka khayal rakhne ka tareeka — main sab note karta hoon, aur tum mere life mein ho iske liye main bahut shukrguzar hoon.',
+      'Is saal, tumhe woh sab mil jaye jiske liye tum wish kar rahe ho, aur kuch khushiyon ki surprises bhi jo tumne kabhi sochi na hon.',
+      'Aur agar butterflies ne yeh wazeh nahi kaha toh: main tumse pyar karta hoon. Aaj, kal, aur hamesha. 💖',
     ],
-    signature: 'Yours, always',
+    signature: 'Hamesha tumhara',
     whatsapp: '918604683669', // wa.me format: country code and number, without the +
-    reply: 'I love you too ❤️ Thank you for my birthday surprise! 🦋🧸🎂',
+    reply: 'Main bhi tumse pyar karta hoon ❤️ Meri birthday surprise ke liye dhanyavad! 🦋🧸🎂',
   };
 
   /* ---------- Helpers ---------- */
