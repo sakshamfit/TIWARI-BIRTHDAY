@@ -72,7 +72,7 @@
     <path d="M84 13s-9-6-11-11c-1-4 4-6 7-2l4 4 4-4c3-4 8-2 7 2-2 5-11 11-11 11z"/>
   </g>
 
-  <text x="600" y="132" text-anchor="middle" fill="#fff" font-family="DejaVu Sans, Arial, sans-serif" font-size="19" font-weight="700" letter-spacing="4" opacity=".88">A LITTLE BIRTHDAY MAGIC FOR</text>
+  <text x="600" y="132" text-anchor="middle" fill="#fff" font-family="DejaVu Sans, Arial, sans-serif" font-size="19" font-weight="700" letter-spacing="4" opacity=".88">KITTU KE LIYE THODA SA MAGIC</text>
   <text x="600" y="251" text-anchor="middle" fill="url(#name)" stroke="#ffacd2" stroke-opacity=".18" stroke-width="2" font-family="DejaVu Serif, Georgia, serif" font-style="italic" font-size="116" filter="url(#nameGlow)">Kittu</text>
 
   <!-- Pink envelope -->
@@ -82,7 +82,7 @@
     <path d="M440 324q0-18 18-18h284q18 0 18 18v175q0 18-18 18H458q-18 0-18-18z" fill="url(#env)"/>
     <path d="M440 324l160 120 160-120v-1q0-17-18-17H458q-18 0-18 18z" fill="#ffc5df"/>
     <path d="M440 499l111-90 49 38 49-38 111 90v1q0 18-18 18H458q-18 0-18-18z" fill="#ff9ec9"/>
-    <text x="467" y="485" fill="#b0185f" font-family="DejaVu Serif, Georgia, serif" font-size="25" font-style="italic">open me ♡</text>
+    <text x="467" y="485" fill="#b0185f" font-family="DejaVu Serif, Georgia, serif" font-size="25" font-style="italic">kholo mujhe ♡</text>
   </g>
   <circle cx="600" cy="417" r="34" fill="#d42a78" opacity=".34"/>
   <circle cx="600" cy="411" r="31" fill="#e52e83"/>
@@ -101,7 +101,7 @@
     <path d="M19 54l12 8 12-8-3 12H22z" fill="#ff5fa2" stroke="#c4688a" stroke-width="2"/>
   </g>
 
-  <text x="600" y="577" text-anchor="middle" fill="#fff" font-family="DejaVu Sans, Arial, sans-serif" font-size="18" font-weight="600" opacity=".84">Tap the heart seal to open it</text>
+  <text x="600" y="577" text-anchor="middle" fill="#fff" font-family="DejaVu Sans, Arial, sans-serif" font-size="18" font-weight="600" opacity=".84">Dil wale seal par tap karke kholo</text>
   <g transform="translate(748 574)" fill="#35d7aa" stroke="#146d64" stroke-width="2" opacity=".95">
     <ellipse cx="0" cy="-9" rx="6" ry="10"/><ellipse cx="0" cy="9" rx="6" ry="10"/>
     <ellipse cx="-8" cy="0" rx="10" ry="6"/><ellipse cx="8" cy="0" rx="10" ry="6"/>

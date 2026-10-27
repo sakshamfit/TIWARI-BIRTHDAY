@@ -1,21 +1,21 @@
-# For Kittu
+# Kittu ke liye
 
-A little interactive birthday story in five chapters: open an envelope, make a wish over the cake, catch butterflies to unlock a gift, discover a sweet reveal, and read a letter.
+Ek chhota sa interactive birthday story paanch chapters mein: envelope kholo, cake par wish karo, butterflies pakdo gift unlock karo, ek sweet reveal dekho, aur ek letter padho.
 
-## Run locally
+## Apne computer par chalao
 
-This is a static site with no build step. Open `index.html` in a browser, or serve the folder with:
+Ye ek static site hai, koi build step nahi hai. Browser mein `index.html` kholo, ya folder isse serve karo:
 
 ```sh
 python3 -m http.server 8000
 ```
 
-Then visit <http://localhost:8000>.
+Phir <http://localhost:8000> par jao.
 
-## Personalize
+## Apnaayo
 
-The message, signature, WhatsApp destination, and reply text live in the `CONFIG` block near the top of the script in `index.html`. The WhatsApp number is stored in international format without a leading `+` for the `wa.me` link. The name is also used in a few visible headings. `og-image.svg` is the editable social preview artwork; `og-image.jpg` is the image used by link previews.
+Message, signature, WhatsApp destination, aur reply text sab `index.html` ke script ke upar wale `CONFIG` block mein hain. WhatsApp number international format mein hai bina `+` ke, `wa.me` link ke liye. Name kuch visible headings mein bhi use hua hai. `og-image.svg` editable social preview artwork hai; `og-image.jpg` link previews mein use hota hai.
 
 ## Credits
 
-Adapted from [Lasya](https://github.com/gireeshkumarreddy/Lasya), with the recipient name and social preview personalized for Kittu.
+Adapted from [Lasya](https://github.com/gireeshkumarreddy/Lasya), recipient name aur social preview Kittu ke liye personalize kiya gaya hai.
